@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Report a Safety Issue">3685f58293360210db877fddfaba1010</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 11:42:41</sys_created_on>
+        <sys_id>9eee390293760210db877fddfaba105a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Report a Safety Issue</sys_name>
+        <sys_package display_value="Safety" source="x_1296409_safety">66dc650693f20210db877fddfaba1059</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">66dc650693f20210db877fddfaba1059</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_9eee390293760210db877fddfaba105a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 11:42:41</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety">66dc650693f20210db877fddfaba1059</application>
+        <file_path/>
+        <instance_id>1ec95aca1b16f550c8432f8dee4bcbb8</instance_id>
+        <instance_name>dev205514</instance_name>
+        <name>sc_cat_item_catalog_9eee390293760210db877fddfaba105a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Report a Safety Issue">3685f58293360210db877fddfaba1010</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-16 11:42:41</sys_created_on><sys_id>9eee390293760210db877fddfaba105a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Report a Safety Issue</sys_name><sys_package display_value="Safety" source="x_1296409_safety">66dc650693f20210db877fddfaba1059</sys_package><sys_policy/><sys_scope display_value="Safety">66dc650693f20210db877fddfaba1059</sys_scope><sys_update_name>sc_cat_item_catalog_9eee390293760210db877fddfaba105a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-16 11:42:41</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>398156950</payload_hash>
+        <record_name>Service Catalog.Report a Safety Issue</record_name>
+        <reverted_from/>
+        <source>2adc650693f20210db877fddfaba105d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 11:42:41</sys_created_on>
+        <sys_id>daee390293760210db877fddfaba105e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19020db4bf10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 11:42:41</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>1eee390244760210b5d585c51d2f655d</update_guid>
+        <update_guid_history>1eee390244760210b5d585c51d2f655d:398156950</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Report a Safety Issue">91508a8293760210db877fddfaba1091</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-16 11:48:53</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0695feaf6b70476480883b0392c43010</sys_id>
+        <sys_metadata>9eee390293760210db877fddfaba105a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Report a Safety Issue</sys_name>
+        <sys_package display_value="Safety" source="x_1296409_safety">66dc650693f20210db877fddfaba1059</sys_package>
+        <sys_parent display_value="Report a Safety Issue">3685f58293360210db877fddfaba1010</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Safety">66dc650693f20210db877fddfaba1059</sys_scope>
+        <sys_scope_delete display_value="">68c66a4ac4e1401085ecb7212175f0b9</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_9eee390293760210db877fddfaba105a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_9eee390293760210db877fddfaba105a">daee390293760210db877fddfaba105e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-16 11:48:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="fc53b1ce93f20210db877fddfaba1042" sys_domain="global" table="x_1296409_safety_issues" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-16 10:52:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7c53b1ce93f20210db877fddfaba1046</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1296409_safety_issues" name="x_1296409_safety_issues" sys_domain="global" view="Default view">fc53b1ce93f20210db877fddfaba1042</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1296409_safety_issues" sys_domain="global" view="Default view">ebaee9c693f20210db877fddfaba10f5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-16 10:52:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-16 10:52:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7853b1ce93f20210db877fddfaba1047</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1296409_safety_issues" name="x_1296409_safety_issues" sys_domain="global" view="Default view">fc53b1ce93f20210db877fddfaba1042</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_1296409_safety_issues" sys_domain="global" view="Default view">7053b1ce93f20210db877fddfaba1042</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-16 10:52:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1296409_safety_issues</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-16 10:52:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc53b1ce93f20210db877fddfaba1042</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1296409_safety_issues</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Safety" source="x_1296409_safety">66dc650693f20210db877fddfaba1059</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Safety">66dc650693f20210db877fddfaba1059</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fc53b1ce93f20210db877fddfaba1042</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-16 10:52:04</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

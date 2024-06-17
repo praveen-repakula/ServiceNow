@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>CONTENT_UPDATED_RELAY_0727ce0e93760210f62306aead9346ed</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Content Updated Relay</label>
+        <props>[{"name":"params","label":"Optionals Parameters","fieldType":"json","valueType":"string"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-16 12:18:49</sys_created_on>
+        <sys_id>0727ce0e0f76021062976331f320d8bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content Updated Relay</sys_name>
+        <sys_package display_value="Safety" source="x_1296409_safety">66dc650693f20210db877fddfaba1059</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">66dc650693f20210db877fddfaba1059</sys_scope>
+        <sys_update_name>sys_ux_event_0727ce0e0f76021062976331f320d8bf</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-16 12:18:49</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=0727ce0e0f76021062976331f320d8bf"/>
+</record_update>

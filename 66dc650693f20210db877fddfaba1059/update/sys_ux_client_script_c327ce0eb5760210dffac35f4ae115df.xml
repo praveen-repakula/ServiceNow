@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Additional Details">4b27ce0e4276021097d34531dc8424df</macroponent>
+        <name>Fetch variables if catalog</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : "",
+  "message" : "No additional details at this time.",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+async function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var data = api.data.look_up_records_1.results;
+    var finalOutput = [];
+    data.forEach(function(element) {
+        if (element.sc_item_option._reference.value.displayValue) {
+            finalOutput.push({
+                'label': element.sc_item_option._reference.item_option_new.displayValue,
+                'value': {
+                    'type': 'string',
+                    'value': element.sc_item_option._reference.value.displayValue
+                }
+            });
+        }
+    });
+    if (finalOutput != "") {
+        api.setState('labelValue', finalOutput);
+    } else {
+        var emptylabel = await helpers.translate("No additional details at this time.");
+        var emptyvalue = "";
+        finalOutput.push({
+            'label': emptylabel,
+            'value': {
+                'type': 'string',
+                'value': emptyvalue
+            }
+        });
+        api.setState('labelValue', finalOutput);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-06-16 12:18:48</sys_created_on>
+        <sys_id>c327ce0eb5760210dffac35f4ae115df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fetch variables if catalog</sys_name>
+        <sys_package display_value="Safety" source="x_1296409_safety">66dc650693f20210db877fddfaba1059</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety">66dc650693f20210db877fddfaba1059</sys_scope>
+        <sys_update_name>sys_ux_client_script_c327ce0eb5760210dffac35f4ae115df</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-06-16 12:18:48</sys_updated_on>
+        <target/>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
